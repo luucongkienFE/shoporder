@@ -1,0 +1,125 @@
+.logo img {
+    width: 60px;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.container-fluid {
+    background-color: #f8f9fa;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+}
+
+.item {
+    position: relative;
+    padding: 20px 0;
+}
+
+.section {
+    position: relative;
+    top: 75px;
+    /* padding: 40px 0; */
+}
+
+.item-bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-cart {
+    position: absolute;
+    bottom: 85px;
+    right: 25px;
+    font-size: 20px;
+    border: none;
+}
+
+.item-img {
+    width: 100%;
+}
+
+.nav-link {
+    color: black !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.product-cart {
+    width: 300px;
+}
+
+.cart {
+    text-decoration: none;
+    border: 1px solid #ff99cc;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.cart div {
+    padding: 0px;
+}
+
+.cart i {
+    padding: 8px;
+    color: #d3297e;
+
+}
+
+.cart span {
+    color: #d3297e;
+    padding-right: 8px;
+}
+
+.cart:focus {
+    outline: 2px solid #ee0379 !important;
+}
+
+.btn_search {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.form-inline {
+    position: relative;
+}
+
+.form-control {
+    padding: 7px 25px 9px 10px !important;
+}
+
+.bill {
+    margin: auto 0;
+    padding-left: 10px;
+}
+
+.bill i {
+    color: salmon;
+    font-size: 18px;
+}
+
+.cart-product {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}

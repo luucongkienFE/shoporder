@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap L0 JS</title>
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar" id="navbarNavDropdown">
+                        <div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/">Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Product </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <div class="nav-right">
+                            <!-- <nav class="navbar navbar-light bg-light">
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search"><button class="btn_search" type="submit"><i
+                                        class="fa-solid fa-magnifying-glass"></i></button></input>
+                            </form>
+                        </nav> -->
+                            <a class="cart" href="cart.html">
+                                <div>
+                                    <i class="fa-solid fa-cart-plus"></i><span>Product Cart</span>
+                                </div>
+                            </a>
+                            <a class="bill" href="order.html"><i class="fa-solid fa-user"></i></a>
+                        </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="gap"></div>
+        <table class="cart-product">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Customer Name</th>
+                    <th>Date</th>
+                    <th>Items Number</th>
+                    <th>Total Number</th>
+                    <th>Total Price</th>
+                    <th>Return</th>
+                </tr>
+
+            </thead>
+            <tbody  class="t-body-order" id="t-body-order">
+
+
+            </tbody>
+
+        </table>
+
+    </div>
+    <div class="container"><button class="back-to-shopping back"><a href="/">Back to shopping</a></button></div>
+
+    <script src="../js/order.js"></script>
+</body>
+
+</html>

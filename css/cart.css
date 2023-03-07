@@ -1,0 +1,123 @@
+.img-product {
+    width: 100px;
+}
+
+.navbar {
+    height: 90px;
+}
+
+/* .navbar-center {
+    justify-content: center !important;
+} */
+.container-fluid {
+    background-color: #f8f9fa;
+}
+
+.cart-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name input {
+    width: 49.5%;
+}
+
+.email input,
+.phone input,
+.address input {
+    width: 100%;
+}
+
+.red {
+    color: red;
+}
+
+.modal-content {
+    width: 700px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+input {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 6px 12px;
+}
+
+
+.crement {
+    border: none;
+    background-color: unset;
+    font-size: 20px;
+
+}
+
+input::placeholder {
+    color: #212529;
+}
+
+
+.note textarea {
+    width: 100%;
+}
+
+.cart-product {
+    width: 100%;
+}
+
+.cart-product thead {
+    border-bottom: 1px solid rgb(158 160 171);
+}
+
+#total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-product-cart {
+    position: relative;
+
+    font-size: 15px;
+    color: red;
+}
+
+.icon-delete {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 1px 7px;
+}
+
+.no-product {
+    text-align: center;
+    color: red;
+}
+
+#no-product img {
+    padding: 20px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.back-to-shop {
+    border: 1px solid #61bc6d;
+}
+
+.back-to-shop a {
+    text-decoration: none;
+}
+
+.t-body {
+    padding: 20px 0 0 0;
+}
+
+.gap {
+    height: 20px;
+}
